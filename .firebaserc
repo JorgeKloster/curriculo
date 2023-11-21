@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "prjcurriculojorge": {
+      "hosting": {
+        "curriculo": [
+          "prjcurriculojorge"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "prjcurriculojorge"
+  }
+}

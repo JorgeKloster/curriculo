@@ -1,1 +1,344 @@
 /* You can add global styles to this file, and also import other style files */
+body
+{
+    background-color:cadetblue;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+h1
+{
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+    color: azure;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+}
+#box1
+{
+    width: auto;
+    float: left;
+}
+#menu
+{
+    display: flex;
+    list-style-type:none;
+    justify-content: right;
+    margin-top: 50px;
+}
+.menu
+{
+    padding: 10px;
+    border: 2px solid azure;
+    margin: 10px;
+    color: azure;
+    font-weight: bold;
+}
+span.menu:hover
+{
+    cursor: pointer;
+    background-color: black;
+}
+#box2
+{
+    width: 400px;
+    height: 400px;
+    float:left;
+    margin: 10px;
+    border: 10px solid azure;
+}
+.logo
+{
+    padding: 10px;
+    border: 2px solid azure;
+    margin: 10px;
+    color: azure;
+    font-weight: bold;
+    font-size: 50px;
+}
+h2
+{
+    font-size: 25px;
+    text-align:left;
+    color: azure;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+h3
+{
+    font-size: 20px;
+    color: azure;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    margin-top: 0px;
+    text-indent: 10px;
+    margin-bottom: 10px; 
+}
+.li.circ
+{
+    list-style-type:circle;
+}
+#box3
+{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 1400px;
+    margin: 10px;
+    border: 10px solid azure;
+    z-index: 1;
+}
+#box4
+{
+    width: 800px;
+    height: 320px;
+    position: absolute;
+    left: 700px;
+    top: 900px;
+    margin: 10px;
+    border: 5px solid azure;
+    background-color: cadetblue;
+    z-index: 3;
+}
+#box5
+{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 1350px;
+    top: 1080px;
+    margin: 10px;
+    border: 10px solid azure;
+    z-index: 2;
+}
+h2.acad
+{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
+}
+h3.acad
+{
+    margin-bottom: 1px;
+}
+li.vazia
+{
+    list-style-type: none;
+    text-indent: 37px;
+}
+ol
+{
+    margin:0px;
+}
+#box6
+{
+    width: 360px;
+    height: 200px;
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    margin: 2px;
+    z-index: 2;
+    text-align: center;
+}
+hr.vert
+{
+    height:220px;
+    width: 0.5px;
+    border-width:0;
+    color:azure;
+    background-color:azure;
+}    
+#box7
+{
+    width: 360px;
+    height: 200px;
+    position: absolute;
+    left: 420px;
+    top: 50px;
+    margin: 2px;
+    z-index: 2;
+    text-align: center;
+}
+footer
+{
+    position:absolute;
+    bottom:5%;
+    background-color: blue;
+    color: #FFF;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+}
+#menu.rod
+{
+    display: flex;
+    list-style-type:none;
+    justify-content: center;
+}
+a
+{
+    color: azure;
+    text-decoration: none;
+}
+hr
+{
+    color: azure;
+    background-color: azure;
+}
+#box4.hs
+{
+    top: 390px;
+    left: 840px;
+    height: 450px;
+}
+#box6.hs
+{
+    top: 15px;
+    left: 20px;
+    width: fit-content;
+}
+#box7.hs
+{
+    width:600px;
+    height: 250px;
+    left: 160px;
+    top: 1px;
+    text-indent: 0px;
+}
+hr.vert.hs
+{
+    margin-left: 150px;
+    height: 400px;
+    
+}
+hr.skill.html
+{
+    height: 10px;
+    margin-top: 0px;
+    margin-right: 240px;
+    margin-bottom: 3px;
+}
+hr.skill.css
+{
+    height: 10px;
+    margin-top: 0px;
+    margin-right: 240px;
+    margin-bottom: 3px;
+}
+hr.skill.ingles
+{
+    height: 10px;
+    margin-top: 0px;
+    margin-right: 240px;
+    margin-bottom: 3px;
+}
+hr.skill.esp
+{
+    height: 10px;
+    margin-top: 0px;
+    margin-right: 520px;
+    margin-bottom: 3px;
+}
+span.box7.hs
+{
+    margin-left: -520px;
+}
+#box4.ss
+{
+    top: 1000px;
+    left: 840px;
+}
+#box6.ss
+{
+    top: 15px;
+    left: 20px;
+    width: fit-content;
+}
+#box7.ss
+{
+    width:600px;
+    height: 250px;
+    left: 190px;
+    top: 1px;
+    text-indent: 0px;
+}
+hr.vert.ss
+{
+    margin-left: 180px;
+    height: 230px;
+    
+}
+hr.skill.criatividade
+{
+    height: 10px;
+    margin-top: 0px;
+    margin-right: 9px;
+    margin-bottom: 3px;
+}
+hr.skill.zelo
+{
+    height: 10px;
+    margin-top: 0px;
+    margin-right: 9px;
+    margin-bottom: 3px;
+}
+hr.skill.proatividade
+{
+    height: 10px;
+    margin-top: 0px;
+    margin-right: 9px;
+    margin-bottom: 3px;
+}
+hr.skill.resiliencia
+{
+    height: 10px;
+    margin-top: 0px;
+    margin-right: 9px;
+    margin-bottom: 3px;
+}
+span.box7.ss
+{
+    margin-left: 500px;
+}
+#box2.exp
+{
+    height: 300px;
+    margin-left: 150px;
+}
+h1.exp
+{
+    margin-top: 0px;
+    margin-bottom: 1px;
+    text-decoration: underline;
+    font-size: 35px;
+}
+h2.exp
+{
+    text-align: center;
+    margin-top: 1px;
+}
+h3.exp
+{
+    margin-bottom: 1px;
+}
+.form
+{
+    color: azure;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-color: azure;
+}
+#menu.cont
+{
+    margin: 1px;
+    justify-content: center;
+}
